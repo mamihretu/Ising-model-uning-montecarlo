@@ -9,9 +9,16 @@ Note on ferromagnets: event though ferromagnets large scale magnetization they d
 
 The ising model therefore focuses only on a single domain and tries to model a simpler dynamics, where only a single dipole flipped at a time 
 
+Metropolis algorithm: Whether or not to flip the dipole is decided by the metropolis algorithm where a dipole is chosen randomly and the effect it would have on the internal energy is checked. If change in internal energy is negative the dipole is flipped, whereas if the change is positive, the boltzaman factor of the energy is compared with a random number between 0-1, if the factor is larger than the random number the dipole is flipped, otherwise, it is not 
+
+
+## Graphical output from eight runs of the ising program, at successively lower temperatures. Each black square represents an "up" dipole and each
+## white square represents a "down" dipole. The variable T is the temperature in units of Elk
+
 ![monte-carlo-multiple](https://user-images.githubusercontent.com/71546703/140597209-49b9c263-69d2-45ea-80b1-668f5d60c0de.JPG)
 
-Metropolis algorithm: Whether or not to flip the dipole is decided by the metropolis algorithm where a dipole is chosen randomly and the effect it would have on the internal energy is checked. If change in internal energy is negative the dipole is flipped, whereas if the change is positive, the boltzaman factor of the energy is compared with a random number between 0-1, if the factor is larger than the random number the dipole is flipped, otherwise, it is not 
+
+
 
 
 ## Alternate uses
