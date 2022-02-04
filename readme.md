@@ -9,7 +9,7 @@ Note on ferromagnets:
 
 As the name signifies, ferromagnets are materials with a magnetic property but despite the presence of magnetization this materials do not behave like common magnets. This is because, unlike common magnets, magnetic alignment within the ferromagnet occurs locally within microscopic domains. Globally each of this domains point in random directions and tend cancel out the effect of others, hence no magnetization is observed at large scale.
 
-The ising model focuses on one domain and tries to model how it's magnetization occurs. This is done by simulating a simplified dynamics where only one magnetic dipole is flipped at a time based a sampling algorithm called Metropolis algorithm.
+The ising model focuses on one domain and tries to model how it's magnetization occurs. This is done by simulating a simplified dynamics where only one magnetic dipole is flipped at a time based on a sampling algorithm called Metropolis algorithm.
 
 Metropolis algorithm: 
 
