@@ -5,9 +5,11 @@
 A statistical model used to estimate the average internal energy and magnetization of a single domain of ferromagnet
 
 
-Note on ferromagnets: event though ferromagnets large scale magnetization they do not behave like common magnets, this is because the magnetization is divided into local domains with magnetic orientations which collectively tend to cancel out
+Note on ferromagnets:
 
-The ising model therefore focuses only on a single domain and tries to model a simpler dynamics, where only a single dipole flipped at a time 
+As the name signifies, ferromagnets are materials with some kind of magnetic property but despite the presence of magnetization this materials do not behave like common magnets. This is because, unlike common magnets, magnetic alignment within the ferromagnet occurs locally within microscopic domains. Globally each of this domains point in random directions and tend cancel out the effect of others, hence no magnetization is observed at large scale.
+
+The ising model focuses on one domain and tries to model how it's magnetization occurs. This is done by simulating a simple dynamics where only one magnetic dipole is flipped at a time based a sampling algorithm called Metropolis algorithm.
 
 Metropolis algorithm: Whether or not to flip the dipole is decided by the metropolis algorithm where a dipole is chosen randomly and the effect it would have on the internal energy is checked. If change in internal energy is negative the dipole is flipped, whereas if the change is positive, the boltzaman factor of the energy is compared with a random number between 0-1, if the factor is larger than the random number the dipole is flipped, otherwise, it is not 
 
