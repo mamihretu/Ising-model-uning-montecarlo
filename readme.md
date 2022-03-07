@@ -31,7 +31,11 @@ This algorithm can be used for any project where all scenarios can not be sample
 
 ## How to run
 
+###option 1,
 simply download and run .py file
+
+###option 2,
+see real time implementation on https://michael-mihretu.herokuapp.com/ising
 
 ## needed modules
 1. turtle
