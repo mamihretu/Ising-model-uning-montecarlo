@@ -37,6 +37,6 @@ simply download and run .py file
 ### option 2,
 see real time implementation on https://michael-mihretu.herokuapp.com/ising
 
-## needed modules
+## needed modules for python implementation
 1. turtle
 2. numpy
